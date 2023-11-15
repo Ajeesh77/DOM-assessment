@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #f5ece6;
+    width: 100%;
+}
+.companylogo{
+   color: #ffb4a2;
+   background-color: #6d6875;
+   padding: 20px 0;
+   text-align: center;
+}
+
+/* input validation */
+.validation{
+   text-align: center;
+   padding: 20px 0;   
+}
+
+.searchInput{
+    padding: 7px 10px;
+    border-radius: 5px;
+    border: 2px solid #5d5667;
+    width: 50vh;
+    font-weight: 500;
+}
+
+.searchButton{
+   color: white;
+   background-color: #3a0ca3;
+   padding: 8px 10px;
+   border-radius: 5px;
+   border: 0px solid black;
+   width: 10vh;
+}
+
+.searchButton:hover{
+   color: black;
+   background-color: #4361ee;
+   outline: 1px solid black;
+   outline-offset: 1px;  
+}
+
+.ourFoods{
+    text-align: center;
+    padding: 1% 0;
+}
+.foodList{
+    text-align: center;
+}
+
+
+.foodList > li{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 0 40%;
+    padding: 5px 0;
+}
+
+.foodList > li:hover{
+    background: #ff4d6d;
+    color: white;
+    padding-right: 5px;
+}
+.foodList  li  i{
+    cursor: pointer;
+}
+
+
+/* main user like to eat foods */
+
+.main{
+   text-align: center;
+   margin: 1%;
+}
+
+.main> h3{
+    background-color:#9d4edd;
+    border-left: 5px solid  #3c096c ;
+    margin: 0px 27%;
+    border-radius: 5px;
+}   
